@@ -258,7 +258,7 @@ void UART_Handler(void) {
                 DEBUG(("Supported Commands: \r\n"));
                 DEBUG(("\t[HELP]: This menu\r\n"));
                 DEBUG(("\t[TRACE?/=]: Prints/Sets current trace levels\r\n"));
-                DEBUG(("\t[HOSTIP?/=]: Gets/Sets MAC address\r\n"));
+                DEBUG(("\t[HOSTIP?/=]: Gets/Sets IP address\r\n"));
                 DEBUG(("\t[MAC?/=]: Gets/Sets MAC address\r\n"));
                 DEBUG(("\t[GATEWAY?/=]: Gets/Sets default gateway\r\n"));
                 DEBUG(("\t[SUBNET?/=]: Gets/Sets subnet mask\r\n"));
@@ -415,7 +415,7 @@ void UART_Handler(void) {
                     DEBUG(("DMX TCP mode: %d\r\b", glb.conf.dmx_tcp_mode));
                 } else if (inCmd[7] == '=') {
                     uint8_t tcp_mode = atoi2(&inCmd[8]);
-                    DEBUG(("DMX rate changed from %d to %d\r\n", glb.conf.dmx_tcp_mode, tcp_mode));
+                    DEBUG(("DMX mode changed from %d to %d\r\n", glb.conf.dmx_tcp_mode, tcp_mode));
                     glb.conf.dmx_tcp_mode = tcp_mode;
                 }
             }
@@ -445,7 +445,7 @@ void UART_Handler(void) {
 /**
  * Initializes LPC-1114/301
  * 
- * @author jaco (10/11/2014)
+ * @author dimtass (10/11/2014)
  */
 void Init_hw(void) {
 #define INACTIVE    0x00
@@ -548,7 +548,7 @@ int atoi2(const char *s) {
 /**
  * Convert HEX string to byte array
  * 
- * @author jaco (10/11/2014)
+ * @author dimtass (10/11/2014)
  * 
  * @param xs HEX string
  * @param result The byte array

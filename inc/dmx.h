@@ -49,7 +49,7 @@ extern tp_dmx_handler dmx_handler;
 /**
  * @brief Initialize the DMX 485 channel and timers
  * 
- * @author jaco (6/1/2014)
+ * @author dimtass (6/1/2014)
  */
 void DMX_Init(void);
 
@@ -57,7 +57,7 @@ void DMX_Init(void);
 /**
  * @brief DMX handler. This must be called in main loop
  * 
- * @author jaco (6/1/2014)
+ * @author dimtass (6/1/2014)
  */
 void DMX_Handler(void);
 
@@ -65,7 +65,7 @@ void DMX_Handler(void);
 /**
  * @brief Get channel's RGB value
  * 
- * @author jaco (6/1/2014)
+ * @author dimtass (6/1/2014)
  * 
  * @param channel 
  * @param R Red value
@@ -81,7 +81,7 @@ int DMX_GetChannelRGB(uint8_t channel, tp_dmx_rgb *rgb);
 /**
  * @brief Set DMX512 channel colors
  * 
- * @author jaco (6/1/2014)
+ * @author dimtass (6/1/2014)
  * 
  * @param channel 
  * @param R Red value
@@ -95,7 +95,7 @@ void DMX_SetChannelRGB(uint8_t channel, tp_dmx_rgb *rgb);
 /**
  * Get/Set raw DMX data
  * 
- * @author jaco (17/11/2014)
+ * @author dimtass (17/11/2014)
  * 
  * @param raw_data 
  * 
