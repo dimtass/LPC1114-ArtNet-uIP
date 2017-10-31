@@ -12,7 +12,7 @@ This can be found in ebay or alibaba. It has been replaced by the newest USR-TCP
 
 Also, in case you need to test it and you don't have a DMX device you can buy a DMX512 RGB decoder driver like the PX24506 which is shown in the picture.
 
-<img src="http://www.stupid-projects.com/wp-content/uploads/2017/10/PX24506-300x300.jpg width="300"/>
+<img src="http://www.stupid-projects.com/wp-content/uploads/2017/10/PX24506-300x300.jpg" width="300"/>
 
 You can find a few more info here:
 http://www.stupid-projects.com/hacking-an-rs232485-to-eth-board
