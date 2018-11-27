@@ -6,7 +6,7 @@ This project is a single universe ArtNet v3 DMX gateway based on `LPC1114/302`,
 hardware from USR IOT and specific the USR-TCP232-24 which is the one in the
 following image:
 
-![Alt text](http://www.stupid-projects.com/wp-content/uploads/2017/10/USR-TCP232-24-300x300.jpg)
+![USR-TCP232-24](http://www.stupid-projects.com/wp-content/uploads/2017/10/USR-TCP232-24-300x300.jpg)
 
 
 This can be found in ebay or alibaba. It has been replaced by the newest
@@ -16,7 +16,7 @@ with integrated MAC. Therefore, this make the project a bit obsolete.
 Also, in case you need to test it and you don't have a DMX device you can buy a
 `DMX512` RGB decoder driver like the `PX24506` which is shown in the picture.
 
-![Alt text](http://www.stupid-projects.com/wp-content/uploads/2017/10/PX24506-300x300.jpg)
+![PX24506](http://www.stupid-projects.com/wp-content/uploads/2017/10/PX24506-300x300.jpg)
 
 You can find a few more info [here](http://www.stupid-projects.com/hacking-an-rs232485-to-eth-board)
 
